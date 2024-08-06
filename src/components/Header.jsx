@@ -1,3 +1,6 @@
+/** import react icons */
+import {FiDownload} from "react-icons/fi";
+
 const Header = () => {
   return (
     <header>
@@ -14,10 +17,10 @@ const Header = () => {
           <div className="flex items-center lg:order-2">
             <a
               href="#"
-              className="text-white dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+              className="flex text-white dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
               style={{backgroundColor: '#2C88D9'}}
             >
-              Download CV
+              <FiDownload style={{color: "white", margin: 'auto', marginRight: "6px"}}/> Download CV
             </a>
             <button
               data-collapse-toggle="mobile-menu-2"
