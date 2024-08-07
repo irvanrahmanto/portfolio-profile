@@ -1,6 +1,6 @@
 /** import react icons */
 import {IoCall} from "react-icons/io5";
-// import About from "../../../public/rocket.png";
+import myImageHero from "../../../public/rocket.png";
 
 const Hero = () => {
   return (
@@ -22,13 +22,12 @@ const Hero = () => {
             <IoCall style={{margin: 'auto', marginRight: "8px"}}/> Contact Me{" "}
           </a>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg: flex">
+        <div className="lg:mt-0 lg:col-span-5 lg: flex">
           <img
-            src={window.location.origin + '../../../public/rocket.png'}
-            // src={About}
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
             alt="profile"
-            width="150"
-            height="150"
+            // width="120"
+            // height="120"
           />
         </div>
       </div>
