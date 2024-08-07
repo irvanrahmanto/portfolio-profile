@@ -3,6 +3,7 @@ import Layout from "../Layout";
 import Hero from "../section/Hero";
 import About from "../section/About";
 import Portfolio from "../section/Porfolio";
+import Certificate from "../section/Certificate";
 
 const Main = () => {
   return(
@@ -10,6 +11,7 @@ const Main = () => {
         <Hero />
         <About />
         <Portfolio />
+        <Certificate />
     </Layout>
   );
 };

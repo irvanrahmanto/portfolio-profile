@@ -1,6 +1,13 @@
+/** import components */
+import InfoCard from "../common/card/InfoCard";
+
 const Porfolio = () => {
   return (
-    <h1>THis is Porfolio</h1>
+    <section className="bg-white">
+      <div className="flex flex-col ... mx-auto">
+        <InfoCard />
+      </div>
+    </section>
   )
 }
 

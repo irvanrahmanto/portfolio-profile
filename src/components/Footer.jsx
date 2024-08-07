@@ -158,8 +158,8 @@ const Footer = () => {
           style={{ justifyContent: "center", backgroundColor: "#D5E7F7"}}
         >
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-            © 2024 All Rights Reserved. | Created by <b>@irvanrahmanto</b> made
-            by ❤️ with <b>React.js</b> and <b>Tailwind.css</b>
+            © 2024 All Rights Reserved. | Created by <b style={{color: '#2C88D9'}}>@irvanrahmanto</b> made
+            by ❤️ with <b style={{color: '#2C88D9'}}>React.js</b> and <b style={{color: '#2C88D9'}}>Tailwind.css</b>
           </span>
         </div>
       </div>
