@@ -1,6 +1,6 @@
 /** import react icons */
 import {IoCall} from "react-icons/io5";
-import myImageHero from "../../../public/rocket.png";
+import myImageHero from "../../assets/example-hero.jpg";
 
 const Hero = () => {
   return (
@@ -24,10 +24,12 @@ const Hero = () => {
         </div>
         <div className="lg:mt-0 lg:col-span-5 lg: flex">
           <img
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
+            src={myImageHero}
             alt="profile"
+            style={{borderWidth: '10px 4px', borderRadius: '10px 40px'}}
+            className="shadow-2xl"
             // width="120"
-            // height="120"
+            // height="20"
           />
         </div>
       </div>

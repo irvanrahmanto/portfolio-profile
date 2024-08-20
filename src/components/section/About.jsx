@@ -26,7 +26,7 @@ const About = () => {
             😎🏃🏻🚴🏻💨
           </p>
         </div>
-        <div className="lg:mt-0 lg:col-span-5 lg:" >
+        <div className="lg:mt-0 lg:col-span-5 lg:" style={{marginTop: '40px'}}>
           <h1 className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white"
             style={{ color: "#2C88D9" }}>Skills</h1>
           <h1 className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white"

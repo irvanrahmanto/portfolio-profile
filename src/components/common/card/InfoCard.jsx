@@ -1,12 +1,11 @@
-import {PropTypes} from "prop-types";
+import { PropTypes } from "prop-types";
 
-const InfoCard = ({urlImg, urlHeading, urlContent}) => {
+const InfoCard = ({ urlImg, urlHeading, urlContent }) => {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 shadow-2xl" style={{backgroundColor: "#D5E7F7"}}>
       <a href="#">
         <img
           className="rounded-t-lg"
-        //   src="/docs/images/blog/image-1.jpg"
           src={urlImg}
           alt=""
         />
@@ -47,9 +46,9 @@ const InfoCard = ({urlImg, urlHeading, urlContent}) => {
 };
 
 InfoCard.propTypes = {
-    urlImg: PropTypes.node.isRequired,
-    urlHeading: PropTypes.node.isRequired,
-    urlContent: PropTypes.node.isRequired
-}
+  urlImg: PropTypes.node.isRequired,
+  urlHeading: PropTypes.node.isRequired,
+  urlContent: PropTypes.node.isRequired,
+};
 
 export default InfoCard;
