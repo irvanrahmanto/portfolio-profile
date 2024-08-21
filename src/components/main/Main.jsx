@@ -4,6 +4,7 @@ import Hero from "../section/Hero";
 import About from "../section/About";
 import Portfolio from "../section/Portfolio";
 import Certificate from "../section/Certificate";
+import BlogPost from "../section/BlogPost";
 
 const Main = () => {
   return(
@@ -12,6 +13,7 @@ const Main = () => {
         <About />
         <Portfolio />
         <Certificate />
+        <BlogPost />
     </Layout>
   );
 };

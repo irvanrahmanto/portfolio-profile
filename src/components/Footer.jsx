@@ -31,13 +31,13 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
           <div>
-            <h2 className="mb-6 text-sm font-extrabold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-2xl font-extrabold text-gray-900 uppercase dark:text-white">
               Contact Me
             </h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="flex flex-wrap mb-4">
                 <SiGmail className="mr-4" size={30} />
-                <a href={`Mail to ${MAIL_TO}`} className=" hover:underline">
+                <a href={`Mail to ${MAIL_TO}`} className="hover:underline">
                   irvan.rahmanto123@gmail.com
                 </a>
               </li>
@@ -50,7 +50,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-extrabold text-gray-900 uppercase dark:text-white ">
+            <h2 className="mb-6 text-2xl font-extrabold text-gray-900 uppercase dark:text-white">
               Follow Me
             </h2>
             <div>
@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-extrabold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-2xl font-extrabold text-gray-900 uppercase dark:text-white">
               Interest
             </h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
