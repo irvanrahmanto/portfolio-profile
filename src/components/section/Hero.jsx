@@ -1,10 +1,11 @@
 /** import react icons */
 import {IoCall} from "react-icons/io5";
 import myImageHero from "../../assets/example-hero.jpg";
+import {WHATSAPP_ME} from "../../utils/constant";
 
 const Hero = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white" id="hero">
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h3 className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white" style={{color: '#2C88D9'}}>👋🏻 Hi, I am</h3>
@@ -15,7 +16,7 @@ const Hero = () => {
             Software Engineer
           </p>
           <a
-            href="#"
+            href={WHATSAPP_ME}
             className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             style={{ backgroundColor: "#2C88D9" }}
           >
@@ -28,8 +29,6 @@ const Hero = () => {
             alt="profile"
             style={{borderWidth: '10px 4px', borderRadius: '10px 40px'}}
             className="shadow-2xl"
-            // width="120"
-            // height="20"
           />
         </div>
       </div>

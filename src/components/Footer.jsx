@@ -24,6 +24,8 @@ const Footer = () => {
       style={{
         backgroundColor: "#D5E7F7",
         boxShadow: "0 -6px 10px 5px rgba(0,0,0,0.5)",
+        paddingTop: '70px'
+        // marginTop: '80px'
       }}
     >
       <div className="mx-auto w-full max-w-screen-xl">

@@ -6,7 +6,7 @@ const Certificate = () => {
   const [certificate, setCertificate] = useState(certificateData);
 
   return (
-    <section style={{ backgroundColor: "#D5E7F7" }}>
+    <section style={{ backgroundColor: "#D5E7F7" }} id="certificate">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <div className="text-center mr-auto place-self-center lg:col-span-7">
           <h1
@@ -36,9 +36,8 @@ const Certificate = () => {
                   >
                     <img
                       src={key.urlImg}
-                      // src={myImage}
                       className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                      alt="..."
+                      alt={key.alt}
                     />
                   </div>
                 ))}
