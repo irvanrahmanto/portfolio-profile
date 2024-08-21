@@ -1,6 +1,6 @@
 /** import react icons */
 import {IoCall} from "react-icons/io5";
-import myImageHero from "../../assets/example-hero.jpg";
+import myImageHero from "../../assets/img-1_.png";
 import {WHATSAPP_ME} from "../../utils/constant";
 
 const Hero = () => {

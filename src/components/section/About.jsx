@@ -107,10 +107,10 @@ const About = () => {
               Tech Stack
             </h1>
             <div className="flex flex-wrap">
-              <RiReactjsFill size={50} className="mr-4" />
-              <SiTypescript size={50} className="mr-4" />
+              <RiReactjsFill size={50} className="mr-4" style={{color: '#5ED3F3'}}/>
+              <SiTypescript size={50} className="mr-4" style={{color: '#2F74C0'}}/>
               <SiMysql size={50} className="mr-4" />
-              <FaGitAlt size={50} className="mr-4" />
+              <FaGitAlt size={50} className="mr-4" style={{color: '#D74A34'}}/>
             </div>
           </div>
 
@@ -126,10 +126,10 @@ const About = () => {
                 <FaSquareGithub size={50} className="mr-4" />
               </a>
               <a href={LINKEDIN_ACCOUNT}>
-                <FaLinkedinIn size={50} className="mr-4" />
+                <FaLinkedinIn size={50} className="mr-4" style={{color: '#0270AD'}}/>
               </a>
               <a href={DRIBBBLE_ACCOUNT}>
-                <FaDribbble size={50} className="mr-4" />
+                <FaDribbble size={50} className="mr-4" style={{color: '#DF4A82'}}/>
               </a>
             </div>
           </div>

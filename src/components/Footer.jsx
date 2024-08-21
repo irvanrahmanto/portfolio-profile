@@ -42,7 +42,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex flex-wrap mb-4">
-                <FaWhatsappSquare className="mr-4" size={30} />
+                <FaWhatsappSquare className="mr-4" size={30} style={{color: '#00BD07'}}/>
                 <a href={WHATSAPP_ME} className=" hover:underline">
                   WhatsApp Me
                 </a>
@@ -71,6 +71,7 @@ const Footer = () => {
                 <li>
                   <a href={LINKEDIN_ACCOUNT}>
                     <FaLinkedin
+                      style={{color: '#0270AD'}}
                       className="mr-4"
                       size={50}
                     />
@@ -79,6 +80,7 @@ const Footer = () => {
                 <li>
                   <a href={DRIBBBLE_ACCOUNT}>
                     <FaDribbbleSquare
+                      style={{color: '#DF4A82'}}
                       className="mr-4"
                       size={50}
                     />
@@ -120,7 +122,7 @@ const Footer = () => {
         </div>
         <hr style={{ border: "1px solid gray" }} />
         <div
-          className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between"
+          className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between sm:text-justify"
           style={{ justifyContent: "center", backgroundColor: "#D5E7F7" }}
         >
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">

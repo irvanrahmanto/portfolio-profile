@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="flex flex-wrap mx-auto text-center md:max-w-screen-xl lg:max-w-screen-xl">
             {portfolio.map((key) => (
               <div key={key.id} className="justify-center mx-auto items-center mt-8 text-gray-500 sm:justify-between">
-                <InfoCard urlImg={key.urlImg} urlHeading={key.urlHeading} urlContent={key.urlContent} />
+                <InfoCard urlImg={key.urlImg} urlHeading={key.urlHeading} urlContent={key.urlContent} urlProject={key.urlProject} />
               </div>
             ))}
           </div>
