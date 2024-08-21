@@ -42,7 +42,7 @@ const Footer = () => {
               <li className="flex flex-wrap mb-4">
                 <FaWhatsappSquare className="mr-4" size={30} />
                 <a href={WHATSAPP_ME} className=" hover:underline">
-                  +62-8131-453-2868
+                  WhatsApp Me
                 </a>
               </li>
             </ul>
