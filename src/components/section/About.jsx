@@ -14,7 +14,7 @@ const About = () => {
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h3
-            className="max-w-2xl mb-4 text-xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white uppercase"
+            className="mb-4 text-xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl dark:text-white uppercase"
             style={{ color: "#2C88D9" }}
           >
             About Me
@@ -43,7 +43,7 @@ const About = () => {
         >
           <div className="mb-10">
             <h1
-              className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white"
+              className="max-w-2xl mb-4 text-xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-xl dark:text-white uppercase"
               style={{ color: "#2C88D9" }}
             >
               Skills
@@ -101,7 +101,7 @@ const About = () => {
           </div>
           <div className="mb-10">
             <h1
-              className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white"
+              className="max-w-2xl mb-4 text-xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-xl dark:text-white uppercase md:mt-5 lg:mt-5"
               style={{ color: "#2C88D9" }}
             >
               Tech Stack
@@ -116,7 +116,7 @@ const About = () => {
 
           <div>
             <h1
-              className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white"
+              className="max-w-2xl mb-4 text-xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-xl dark:text-white uppercase md:mt-5 lg:mt-5"
               style={{ color: "#2C88D9" }}
             >
               Lets Connect With Me

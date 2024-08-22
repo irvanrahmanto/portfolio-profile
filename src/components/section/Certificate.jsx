@@ -1,6 +1,7 @@
 import { useState } from "react";
 /** import JSON static data */
 import certificateData from "../../json/Certificate";
+import Carousel from "../common/caroussel/Carousel";
 
 const Certificate = () => {
   const [certificate, setCertificate] = useState(certificateData);
@@ -10,7 +11,7 @@ const Certificate = () => {
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <div className="text-center mr-auto place-self-center lg:col-span-7">
           <h1
-            className="mb-4 text-xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-xl dark:text-white uppercase"
+            className="mb-4 text-xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl dark:text-white uppercase"
             style={{ color: "#2C88D9" }}
           >
             Certificate
@@ -21,7 +22,7 @@ const Certificate = () => {
           >
             My Latest Certificate
           </h3>
-          <div className="flex flex-wrap mx-auto text-center md:max-w-screen-xl lg:max-w-screen-xl">
+          {/* <div className="flex flex-wrap mx-auto text-center md:max-w-screen-xl lg:max-w-screen-xl">
             <div
               id="default-carousel"
               className="relative w-full"
@@ -128,7 +129,8 @@ const Certificate = () => {
                 </span>
               </button>
             </div>
-          </div>
+          </div> */}
+          <Carousel />
         </div>
       </div>
     </section>
