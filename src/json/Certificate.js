@@ -1,17 +1,17 @@
 const certificateData = [
     {
         id: 1,
-        urlImg: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png",
+        urlImg: "https://drive.google.com/file/d/1SKoz1zJoE0lREP-xhip1Sccon2zHUwVt/view",
         alt: "image data alt"
     },
     {
         id: 2,
-        urlImg: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png",
+        urlImg: "https://drive.google.com/file/d/1SKoz1zJoE0lREP-xhip1Sccon2zHUwVt/view",
         alt: "image data alt"
     },
     {
         id: 3,
-        urlImg: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png",
+        urlImg: "https://drive.google.com/file/d/1SKoz1zJoE0lREP-xhip1Sccon2zHUwVt/view",
         alt: "image data alt"
     }
 ]
