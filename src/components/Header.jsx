@@ -6,6 +6,59 @@ import Headroom from "react-headroom";
 import { FiDownload } from "react-icons/fi";
 import myCv from "../assets/doc/test.pdf";
 
+const NavMenu = [
+  {
+    navName: "Home",
+    to: "hero",
+    spy: true,
+    smooth: true,
+    offset: -100,
+    duration: 500,
+    className:
+      "block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700",
+  },
+  {
+    navName: "About",
+    to: "about",
+    spy: true,
+    smooth: true,
+    offset: -100,
+    duration: 500,
+    className:
+      "block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700",
+  },
+  {
+    navName: "Portfolio",
+    to: "portfolio",
+    spy: true,
+    smooth: true,
+    offset: -100,
+    duration: 500,
+    className:
+      "block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700",
+  },
+  {
+    navName: "Certificate",
+    to: "certificate",
+    spy: true,
+    smooth: true,
+    offset: -100,
+    duration: 500,
+    className:
+      "block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700",
+  },
+  {
+    navName: "Article",
+    to: "article",
+    spy: true,
+    smooth: true,
+    offset: -100,
+    duration: 500,
+    className:
+      "block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700",
+  },
+];
+
 const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -78,71 +131,21 @@ const Header = () => {
               id="mobile-menu-2"
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                <li>
-                  <Link
-                    to="hero"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                    onClick={closeMenu}
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="portfolio"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Portfolio
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="certificate"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Certificate
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="article"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Article
-                  </Link>
-                </li>
+                {NavMenu.map((key, idx) => (
+                  <li key={idx}>
+                    <Link
+                      to={key.to}
+                      spy={key.spy}
+                      smooth={key.smooth}
+                      offset={key.offset}
+                      duration={key.duration}
+                      className={key.className}
+                      onClick={closeMenu}
+                    >
+                      {key.navName}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
