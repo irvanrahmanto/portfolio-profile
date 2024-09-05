@@ -1,4 +1,7 @@
 import { useState } from "react";
+// import Link from "next/link";
+// import {Link} from "react-router-dom";
+
 /** import JSON static data */
 import certificateData from "../../json/Certificate";
 import Carousel from "../common/caroussel/Carousel";
@@ -30,8 +33,13 @@ const Certificate = () => {
           >
             {/* Carousel wrapper */}
             <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-              {certificate.map((key, idx) => (
-                <Carousel key={key.id} urlImg={key.urlImg} altImg={key.altImg}/>
+              {certificate.map((key) => (
+                  <Carousel
+                    key={key.id}
+                    urlImg={key.urlImg}
+                    imgLink={key.imgLink}
+                    altImg={key.altImg}
+                  />
               ))}
             </div>
             {/* Slider indicators */}
