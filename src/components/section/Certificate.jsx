@@ -1,13 +1,11 @@
 import { useState } from "react";
-// import Link from "next/link";
-// import {Link} from "react-router-dom";
 
 /** import JSON static data */
 import certificateData from "../../json/Certificate";
 import Carousel from "../common/caroussel/Carousel";
 
 const Certificate = () => {
-  const [certificate, setCertificate] = useState(certificateData);
+  const [certificate] = useState(certificateData);
 
   return (
     <section style={{ backgroundColor: "#D5E7F7" }} id="certificate">
@@ -32,7 +30,7 @@ const Certificate = () => {
             data-carousel="slide"
           >
             {/* Carousel wrapper */}
-            <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div className="relative h-auto overflow-hidden rounded-lg md:h-96">
               {certificate.map((key) => (
                   <Carousel
                     key={key.id}

@@ -5,7 +5,7 @@ import InfoCard from "../common/card/InfoCard";
 /** import JSON static data */
 import Article from "../../json/Article";
 // import myImg from "../../assets/example-hero.jpg";
-import myImg from "../../assets/certificate/Sertfikat-PMMB-Telkom-Irvan-1.png";
+// import myImg from "../../assets/certificate/Sertfikat-PMMB-Telkom-Irvan-1.png";
 
 const BlogPost = () => {
   const [articlePost, setArticlePost] = useState(Article);
@@ -28,32 +28,6 @@ const BlogPost = () => {
           </h3>
           <div className="flex flex-wrap mx-auto text-center md:max-w-fit md:gap-3 lg:max-w-fit lg:gap-3">
             {articlePost.map((item) => (
-              // <div key={item.id} className="max-w-sm rounded overflow-hidden shadow-lg" >
-              //   <img
-              //     className="w-full"
-              //     src={myImg}
-              //     alt={item.articleName}
-              //   />
-              //   <div className="px-6 py-4">
-              //     <div className="font-bold text-xl mb-2">
-              //       {item.articleName}
-              //     </div>
-              //     <p className="text-gray-700 text-base">
-              //       {item.articleTitle}
-              //     </p>
-              //   </div>
-              //   <div className="px-6 pt-4 pb-2">
-              //     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              //       #photography
-              //     </span>
-              //     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              //       #travel
-              //     </span>
-              //     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              //       #winter
-              //     </span>
-              //   </div>
-              // </div>
               <InfoCard
                 key={item.id}
                 articleName={item.articleName}
