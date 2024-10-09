@@ -23,7 +23,6 @@ const Certificate = () => {
           >
             My Latest Certificate
           </h3>
-          {/* <Carousel /> */}
           <div
             id="default-carousel"
             className="relative w-full"

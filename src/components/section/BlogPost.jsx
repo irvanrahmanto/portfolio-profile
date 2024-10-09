@@ -1,11 +1,11 @@
 import { useState } from "react";
-/** import components */
 
+/** import components */
 import InfoCard from "../common/card/InfoCard";
+import InfoCardArticle from "../common/card/InfoCardArticle";
+
 /** import JSON static data */
 import Article from "../../json/Article";
-// import myImg from "../../assets/example-hero.jpg";
-// import myImg from "../../assets/certificate/Sertfikat-PMMB-Telkom-Irvan-1.png";
 
 const BlogPost = () => {
   const [articlePost, setArticlePost] = useState(Article);
@@ -28,12 +28,11 @@ const BlogPost = () => {
           </h3>
           <div className="flex flex-wrap mx-auto text-center md:max-w-fit md:gap-3 lg:max-w-fit lg:gap-3">
             {articlePost.map((item) => (
-              <InfoCard
+              <InfoCardArticle
                 key={item.id}
                 articleName={item.articleName}
                 articleTitle={item.articleTitle}
                 articlePost={item.articlePost}
-                urlImage={item.urlImage}
               />
             ))}
           </div>

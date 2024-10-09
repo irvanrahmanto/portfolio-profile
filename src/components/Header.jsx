@@ -4,7 +4,7 @@ import Headroom from "react-headroom";
 
 /** import react icons */
 import { FiDownload } from "react-icons/fi";
-import myCv from "../assets/doc/test.pdf";
+import { MY_CV } from "../utils/constant";
 
 const NavMenu = [
   {
@@ -81,7 +81,7 @@ const Header = () => {
             </a>
             <div className="flex items-center lg:order-2">
               <a
-                href={myCv}
+                href={MY_CV}
                 target="_blank"
                 className="flex text-white dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
                 style={{ backgroundColor: "#2C88D9" }}
