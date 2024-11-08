@@ -17,10 +17,10 @@ const InfoCard = ({
   techStackThree,
 }) => {
   return (
-    <div key={id} className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div key={id} className="max-w-sm mx-1 rounded overflow-hidden shadow-lg">
       <a href={urlProject || articlePost || urlImg} target="_blank">
         <img
-          className="w-full"
+          className="w-full blur-sm hover:blur-none"
           src={urlImg || urlImage || imgLink}
           alt={articleName || urlHeading || alt}
         />

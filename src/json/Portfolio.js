@@ -1,8 +1,11 @@
+import imgProject1 from '../assets/project/line-bank.jpeg';
+import imgProject2 from '../assets/project/pasar-murah-nusantara.jpeg';
+import imgProject3 from '../assets/project/other-project.jpeg';
+
 const portfolioData = [
   {
     id: 1,
-    urlImg:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png",
+    urlImg: imgProject1,
     urlHeading: "LINE Bank",
     urlContent: "This is content paragraph",
     urlProject: "https://linebank.co.id",
@@ -12,8 +15,7 @@ const portfolioData = [
   },
   {
     id: 2,
-    urlImg:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png",
+    urlImg: imgProject2,
     urlHeading: "Pasar Murah Nusantara",
     urlContent: "This is content paragraph",
     urlProject: "https://pasarmurahnusantara.co.id/",
@@ -23,9 +25,8 @@ const portfolioData = [
   },
   {
     id: 3,
-    urlImg:
-      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png",
-    urlHeading: "Other things",
+    urlImg: imgProject3,
+    urlHeading: "Other Project",
     urlContent: "This is content paragraph",
     urlProject: "https://irvanrahmanto.github.io/",
     techStackOne: "HTML",

@@ -1,7 +1,5 @@
 import { useState } from "react";
-
 /** import components */
-import InfoCard from "../common/card/InfoCard";
 import InfoCardArticle from "../common/card/InfoCardArticle";
 
 /** import JSON static data */
