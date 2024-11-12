@@ -20,19 +20,7 @@ const About = () => {
             About Me
           </h3>
           <p className="text-justify max-w-xl mb-6 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            ✋🏻 Hello there! You may call me Irvan. I’m a highly motivated and
-            results-driven professional, who then committed to delivering
-            exceptional performance and adding value to every project and
-            organization I work with. I have a demonstrated history working in
-            information technology. I have developed a wide range of skills
-            including programming, software design-analysis, and technical
-            writing for software development, and I also have strong analytical
-            and problem-solving solving, then having advantage skills in
-            communication, presentation, public speaking, and cross-function
-            collaboration. I am passionate about staying current with industry
-            trends and utilizing my knowledge to drive innovation and growth.
-            Besides the programming stuff, I also like to do any kind of sports
-            activities such as jogging, cycling, football game,s and more.{" "}
+            ✋🏻 I am a highly motivated and results-driven software engineer with a strong background in Information Technology, specializing in frontend software development. With experience in software design, programming, and problem-solving, I thrive in collaborative team environments and am always eager to learn and adapt to new challenges. Passionate about staying current with industry trends, I aim to leverage my skills to drive innovation and contribute to growth..{" "}
             <br />
             😎🏃🏻🚴🏻💨
           </p>

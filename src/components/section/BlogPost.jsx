@@ -1,6 +1,6 @@
 import { useState } from "react";
 /** import components */
-import InfoCardArticle from "../common/card/InfoCardArticle";
+import InforCardPost from "../common/card/InfoCardPost";
 
 /** import JSON static data */
 import Article from "../../json/Article";
@@ -24,13 +24,14 @@ const BlogPost = () => {
           >
             My Latest Article
           </h3>
-          <div className="flex flex-wrap mx-auto text-center md:max-w-fit md:gap-3 lg:max-w-fit lg:gap-3">
+          <div className="flex">
             {articlePost.map((item) => (
-              <InfoCardArticle
+              < InforCardPost 
                 key={item.id}
+                articlePost={item.articlePost}
                 articleName={item.articleName}
                 articleTitle={item.articleTitle}
-                articlePost={item.articlePost}
+                urlImage={item.urlImage}
               />
             ))}
           </div>
